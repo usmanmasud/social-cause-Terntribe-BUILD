@@ -1,9 +1,16 @@
+import CardsSection from "./components/Card"
+import Footer from "./components/Footer"
+import GetInvolved from "./components/GetInvolved"
+import Hero from "./components/Hero"
 
 
 function App() {
   return (
     <>
-      <h1 className="text-center text-red-300">hello world</h1>
+      <Hero />
+      <CardsSection />
+      <GetInvolved />
+      <Footer />
     </>
   )
 }
