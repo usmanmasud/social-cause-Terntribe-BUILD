@@ -2,7 +2,7 @@ function GetInvolved() {
     return (
         <section className="flex flex-col p-6 ">
             <h2 className="text-2xl font-bold mb-4">Get Involved</h2>
-            <form className="p-6 w-3/4">
+            <form className="p-6 w-4/5">
                 <label className="block mb-4">
                     <span className="text-gray-700">Name</span>
                     <input
