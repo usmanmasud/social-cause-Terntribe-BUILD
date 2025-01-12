@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Contact Information */}
-                    <div className="mb-6 text-gray-500 md:mb-0 text-center md:text-left">
-                        <h5 className="text-lg font-semibold mb-2">Contact Us</h5>
+                    <div className="mb-6  text-gray-500 md:mb-0 text-center md:text-left">
+                        <h5 className="text-lg text-gray-800 font-semibold mb-2">Contact Us</h5>
                         <p>Email: usmanmasud260@gmail.com</p>
                         <p>Phone: +2349136335556</p>
                         <p>Kano State, Nigeria</p>
