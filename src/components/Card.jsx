@@ -2,7 +2,7 @@
 
 function Card({ image, title, description }) {
     return (
-        <div className="bg-black flex shadow-md rounded-lg overflow-hidden">
+        <div className="flex shadow-md rounded-lg overflow-hidden">
             <img src={image} alt={title} className="w h-40 object-cover" />
             <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{title}</h2>
@@ -15,10 +15,10 @@ function Card({ image, title, description }) {
 
 function CardsSection() {
     const causes = [
-        { id: 1, image: "/assets/education.jpg", title: "Education for All", description: "Support access to quality education." },
-        { id: 2, image: "cause2.jpg", title: "Clean Water", description: "Ensure safe drinking water for everyone." },
-        { id: 3, image: "cause3.jpg", title: "Climate Action", description: "Combat climate change together." },
-        { id: 4, image: "cause4.jpg", title: "Healthcare", description: "Provide essential healthcare services." },
+        { id: 1, image: "/assets/education.jpg", title: "Education", description: "Support access to quality education." },
+        { id: 2, image: "/assets/food.jpg", title: "Food", description: "Ensure health food for everyone" },
+        { id: 3, image: "/assets/health.jpg", title: "Healthcare", description: "Provide essential healthcare services" },
+        { id: 4, image: "/assets/digital.jpg", title: "Skills", description: "Provide digital and soft skills for everyone" },
     ];
 
     return (
