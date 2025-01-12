@@ -7,7 +7,7 @@ function Card({ image, title, description }) {
             <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{title}</h2>
                 <p className="text-gray-600 mb-4">{description}</p>
-                <button className="text-blue-500 hover:underline">Learn More</button>
+                <button className="text-blue-500 bg-gray-200 px-4 py-2 rounded-full hover:underline">Learn More</button>
             </div>
         </div>
     );
