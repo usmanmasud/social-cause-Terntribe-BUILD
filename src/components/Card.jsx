@@ -2,7 +2,7 @@
 
 function Card({ image, title, description }) {
     return (
-        <div className="flex shadow-md rounded-lg overflow-hidden">
+        <div className="flex four shadow-md rounded-lg overflow-hidden">
             <img src={image} alt={title} className="w h-40 object-cover" />
             <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{title}</h2>
