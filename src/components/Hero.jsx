@@ -16,7 +16,7 @@ function Hero() {
                 <h1
                     className="text-white border-white border-2 text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center hover:bg-gray-100 hover:text-black"
                 >
-                    Get start
+                    Donation
                 </h1>
             </div>
         </div>
