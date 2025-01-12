@@ -22,6 +22,7 @@ function GetInvolved() {
                 <label className="block mb-4">
                     <span className="text-gray-700">Select Cause</span>
                     <select className="mt-1 block w-fullv p-2 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-200">
+                        <option>Select an options</option>
                         <option>Education</option>
                         <option>Food</option>
                         <option>Healthcare</option>
