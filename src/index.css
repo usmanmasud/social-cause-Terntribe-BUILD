@@ -18,6 +18,7 @@
 
 body {
     font-family: "Merriweather", serif;
+    background-color: white;
 }
 
 @media (max-width:490px) {
